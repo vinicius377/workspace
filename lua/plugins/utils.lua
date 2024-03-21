@@ -1,4 +1,11 @@
 return {
+  {
+    'L3MON4D3/LuaSnip',
+    dependencies = {
+      'rafamadriz/friendly-snippets',
+      'saadparwaiz1/cmp_luasnip'
+    }
+ },
  { 
    'windwp/nvim-ts-autotag',
    config = function()
@@ -15,7 +22,14 @@ return {
       autopairs.setup{}
   end
  },
- 'nvim-treesitter/nvim-treesitter-context',
+  { 
+    'nvim-treesitter/nvim-treesitter-context',
+    config = function()
+      require('nvim-treesitter').setup{
+        max_lines = 3,
+      }
+    end
+  },
  { 
    'echasnovski/mini.indentscope',
    config = function ()

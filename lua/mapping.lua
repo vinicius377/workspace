@@ -2,7 +2,6 @@ local map = vim.keymap.set
 
 map('n', '<space>q', '<cmd>bd<cr>')
 map('n', '<C-a>', '<cmd>NvimTreeToggle<cr>')
-
 -- splits remaps
 map('n', '<C-h>', '<C-w>h')
 map('n', '<C-j>', '<C-w>j')

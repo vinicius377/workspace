@@ -6,6 +6,13 @@ return {
     config = function()
        local tree = require 'nvim-tree'
 
-       tree.setup()
+       tree.setup{
+          view = {
+            width = 25
+          },
+            diagnostics = {
+              enable = true
+            }
+       }
     end
 }

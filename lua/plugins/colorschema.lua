@@ -1,6 +1,12 @@
 return { 
-   'Mofiqul/dracula.nvim',
-   config = function () 
-      vim.cmd[[colorscheme dracula]]
-    end
+  'xiyaowong/transparent.nvim',
+  {
+    'bluz71/vim-nightfly-colors',
+    config = function () 
+    vim.cmd[[colorscheme nightfly]]
+
+
+    vim.g.nightflyTransparent = true
+  end
+  },
  }

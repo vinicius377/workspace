@@ -2,7 +2,8 @@ local servers = {
   'tsserver',
   'pyright',
   'html',
-  'cssls'
+  'cssls',
+  'lua_ls'
 }
 
 return servers
