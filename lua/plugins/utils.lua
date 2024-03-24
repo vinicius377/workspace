@@ -1,5 +1,15 @@
 return {
   {
+    "folke/todo-comments.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" },
+  },
+  {
+   'mattn/emmet-vim'
+  },
+  {
+    'ap/vim-css-color'
+  },
+  {
     'L3MON4D3/LuaSnip',
     dependencies = {
       'rafamadriz/friendly-snippets',

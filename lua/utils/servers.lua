@@ -3,7 +3,7 @@ local servers = {
   'pyright',
   'html',
   'cssls',
-  'lua_ls'
+  'lua_ls',
 }
 
 return servers
