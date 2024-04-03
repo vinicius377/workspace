@@ -1,5 +1,5 @@
 require 'options'
-require 'plugins.lazy-installer'
+local status = pcall(require 'plugins.lazy-installer')
 require 'mapping'
 
 local lazy = require('lazy')

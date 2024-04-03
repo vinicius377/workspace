@@ -25,8 +25,8 @@ return {
            '.git/',
            'build/',
            'dist/',
-           '*.json',
-           '*.lock'
+           '%.json',
+           '%.lock'
          },
         mappings = {
             i = {

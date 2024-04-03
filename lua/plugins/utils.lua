@@ -17,7 +17,8 @@ return {
     'L3MON4D3/LuaSnip',
     dependencies = {
       'rafamadriz/friendly-snippets',
-      'saadparwaiz1/cmp_luasnip'
+      'saadparwaiz1/cmp_luasnip',
+      'hrsh7th/vim-vsnip'
     }
  },
  { 
@@ -39,8 +40,8 @@ return {
   { 
     'nvim-treesitter/nvim-treesitter-context',
     config = function()
-      require('nvim-treesitter').setup{
-        max_lines = 3,
+      require'treesitter-context'.setup{
+        max_lines = 4,
       }
     end
   },

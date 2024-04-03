@@ -3,7 +3,7 @@ return {
     config = function()
       local wk = require'which-key'
       wk.setup{
-        ignore_missing = true
+        ignore_missing = true,
       }
       wk.register({
         g = {
@@ -14,6 +14,13 @@ return {
           l = { '<cmd>:DiffviewClose<cr>', 'Git view changes cLose'}
         },
         t = { '<cmd>:TodoQuickFix<cr>', "List all TODO's"},
+        s = {
+          name = 'Split',
+          v = { '<cmd>:vsplit<cr>', 'Vertical'},
+          h = { '<cmd>:split<cr>', 'Horizontal'}
+        }
      }, { prefix = '<space>' })
     end
 }
+
+

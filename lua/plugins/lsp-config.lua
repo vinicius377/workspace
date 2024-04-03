@@ -7,6 +7,9 @@ return {
       neodev.setup {}
     end
   },
+   {
+    'jcha0713/cmp-tw2css',
+  },
   {
     'neovim/nvim-lspconfig',
     dependencies = {
