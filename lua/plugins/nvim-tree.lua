@@ -31,7 +31,10 @@ return {
         diagnostics = {
             enable = true
           },
-        on_attach =  attach
+        on_attach =  attach,
+        filters = {
+          dotfiles = false
+        }
        }
 
     end

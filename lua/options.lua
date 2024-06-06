@@ -41,6 +41,8 @@ vim.opt.spell = false
 vim.opt.spelllang = "en"
 vim.opt.scrolloff = 8 -- is one of my fav
 vim.opt.sidescrolloff = 8
+vim.opt.autochdir = true
+vim.opt.numberwidth=1
 
 vim.opt.spelllang = { 'en','pt_br' }
 vim.opt.spell = false

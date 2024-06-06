@@ -6,7 +6,9 @@ local servers = {
   'lua_ls',
   'cssmodules_ls',
   'ltex',
-  'astro'
+  'astro',
+  'emmet_ls',
+  'angularls'
 }
 
 return servers
