@@ -75,6 +75,9 @@ return {
   },
   {
     "prisma/vim-prisma"
+  },
+  {
+    "prettier/vim-prettier"
   }
 }
 
@@ -83,3 +86,21 @@ return {
 --    'Exafunction/codeium.vim',
 --    event = 'BufEnter'
 --  },
+--
+-- {
+--     "vhyrro/luarocks.nvim",
+--     priority = 1001, -- this plugin needs to run before anything else
+--     opts = {
+--         rocks = { "magick" },
+--     },
+--     config = function ()
+--      require('luarocks-nvim').setup{} 
+--     end
+-- },
+-- {
+--     "3rd/image.nvim",
+--     dependencies = { "luarocks.nvim" },
+--     config = function()
+--       require'image'.setup{}
+--     end
+-- }

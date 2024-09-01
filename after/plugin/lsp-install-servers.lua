@@ -22,6 +22,16 @@ for _, server in pairs(servers) do
     lspconfig.cssls.setup {
       capabilities = capabilities
     }
+  elseif server == 'rust_analyzer' then
+    lspconfig.rust_analyzer.setup {
+      settings = {
+        ['rust-analyzer'] = {
+          diagnostics = {
+            enable = false,
+          }
+        }
+      }
+    }
   else
     lspconfig[server].setup {}
   end

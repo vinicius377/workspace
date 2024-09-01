@@ -5,10 +5,17 @@ local servers = {
   'cssls',
   'lua_ls',
   'cssmodules_ls',
-  'ltex',
   'astro',
+  'vuels',
+  'volar',
   'emmet_ls',
-  'angularls'
+  'tailwindcss',
+  'angularls',
+  'elixirls',
+  'svelte',
+  'rust_analyzer',
+  'rust-analyzer'
+  --'jdtls'
 }
 
 return servers
