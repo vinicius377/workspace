@@ -1,5 +1,5 @@
 local servers = {
-  'tsserver',
+  'ts_ls',
   'pyright',
   'html',
   'cssls',
@@ -14,7 +14,6 @@ local servers = {
   'elixirls',
   'svelte',
   'rust_analyzer',
-  'rust-analyzer'
   --'jdtls'
 }
 
